@@ -11,7 +11,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
 
 </head>
@@ -43,12 +44,63 @@
         <div class="subscribe__newsletter color">Subscribe</div>
         <p class=" subscribe__offer color">To get special offers and VIP treatment:</p>
         <form class="subscribe__form">
-            <input type="text" placeholder="Entrer e-mail" class="subscribe__form-input"/>
-            <input type="submit" class="subscribe__form-submit color"/>
+            <input type="text" placeholder="Entrer e-mail" class="subscribe__form-input" />
+            <button type="submit" class="subscribe__form-submit color">Subscribe</button>/>
         </form>
-
     </section>
-    <script src="./script/main.js" ></script>
+    <section class="informations">
+        <div class="information__contact">
+            <h3 class="information__contact-title">Contact</h3>
+            <p class="information__contact-question">Questions? Go ahead.</p>
+            <form class="information__contact__form">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea name="message" id="" cols="30" rows="10" class="information__contact__form-textaera" placeholder="message"></textarea>
+                <button type="submit" class="information__contact__form-button">Send</button>
+            </form>
+
+        </div>
+        <div class="information__about">
+            <h3 class="information__about-title">About</h3>
+            <div>
+                <a href="#">About us</a>
+                <a href="#">We are hiring</a>
+                <a href="#">Support</a>
+                <a href="#">Find store</a>
+                <a href="#">Shipment</a>
+                <a href="#">Payment</a>
+                <a href="#">Gift card</a>
+                <a href="#">Return</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+        <div class="information__store">
+            <h3 class="information__store-title">Store</h3>
+            <div class="information__store-fonts">
+                <p><i class="fa-solid fa-location-dot"></i> Company Name</p>
+                <p><i class="fa-solid fa-phone"></i> 0044123123</p>
+                <p><i class="fa-solid fa-envelope"></i> ex@mail.com</p>
+            </div>
+            <h4 class="information__store-title">We accept</h4>
+            <div class="information__store-fonts">
+                <p><i class="fa-brands fa-cc-amex"></i> Amex</p>
+                <p><i class="fa-solid fa-credit-card"></i> Credit Card</p>
+            </div>
+            <div class="information__store-socialmedia">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Powered by <a href="#" class="footer-link">W3.css</a></p>
+    </footer>
+    <script src="./script/main.js"></script>
 
 </body>
 
