@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
     <header class="header">
         <div class="header__logo">Logo</div>
         <div class="header__icon"><i class="fa-solid fa-bars"></i></div>
@@ -34,10 +35,11 @@
             <img src="./img/jeans.jpeg" alt="" class="banner__img">
             <div class="banner__description">
                 <h1 class="banner__description-title">New arrivals</h1>
+                <h3 class="banner__description-collection">COLLECTION 2016</h3>
                 <a href="#jeans" class="banner__description-shop">SHOP NOW</a>
             </div>
         </div>
-        <div class="numbers">5 items</div>
+        <div class="numbers">20 items</div>
         <div class="items"></div>
     </div>
     <section class="subscribe">
@@ -56,7 +58,8 @@
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Email">
                 <input type="text" placeholder="Subject">
-                <textarea name="message" id="" cols="30" rows="10" class="information__contact__form-textaera" placeholder="message"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" class="information__contact__form-textaera"
+                    placeholder="message"></textarea>
                 <button type="submit" class="information__contact__form-button">Send</button>
             </form>
 
@@ -100,6 +103,38 @@
     <footer class="footer">
         <p>Powered by <a href="#" class="footer-link">W3.css</a></p>
     </footer>
+    <div class="overlay"></div>
+    <nav class="topbar">
+        <div class="topbar__logo">LOGO</div>
+        <div class="sidebar__close"><i class="fa fa-remove"></i>
+
+        </div>
+        <div class="topbar__clothing">
+            <a href="#">Shirts</a>
+            <a href="#">Dresses</a>
+            <div class="topbar__clothing-items">
+                <a href="#" class="topbar__clothing-jeans">Jeans <i class="fa-solid fa-caret-down"></i></a>
+                <ul class="topbar__clothing-jeans__type">
+                    <li> <i class="fa-solid fa-caret-right"></i> Skinny</li>
+                    <li>Relaxed</li>
+                    <li>Bootcut</li>
+                    <li>Straight</li>
+                </ul>
+            </div>
+            <div class="topbar__clothing-items-name">
+                <a href="#">Jackets</a>
+                <a href="#">Gymwear</a>
+                <a href="#">Blazers</a>
+                <a href="#">Shoes</a>
+            </div>
+
+        </div>
+        <div class="topbar-contact">
+            <a href="#">Contact</a>
+            <a href="#">Newsletter</a>
+            <a href="#">Subscribe</a>
+        </div>
+    </nav>
     <script src="./script/main.js"></script>
 
 </body>
