@@ -8,7 +8,10 @@ html, body {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
-
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .container {
     padding: 0 16px;
     margin-top: 84px;
@@ -403,11 +406,10 @@ li:not(:first-child):hover {
         display: none;
     }
     .topbar{
-        width:300px
-    }
-
-    .topbar {
+        width:300px;
         display: block;
+        position: sticky;
+        flex-shrink: 0;
     }
 
     .container {
@@ -417,11 +419,10 @@ li:not(:first-child):hover {
     .article {
         display: flex;
     }
-
     .ajustement{
-        padding-left: 300px;
-        padding-right: 140px;
+        display: flex;
     }
+    
 
     .sidebar__close {
         display: none;
@@ -441,5 +442,12 @@ li:not(:first-child):hover {
     .topbar__clothing-jeans__type{
         text-align: right;
     }
+    .main-content{
+        flex: 0 1 100%;
+    }
+    
+    
 
 }
+
+    
