@@ -47,6 +47,7 @@ function CloseMenuWithOverlay() {
     openSideMenuIcon()
     overlayclose.classList.remove("overlayOne");
     sidebar.classList.remove("openSideBar")
+    OpenSideBar.classList.remove("iconBakgroundClick");
 
 }
 overlayclose.addEventListener('click', CloseMenuWithOverlay)
